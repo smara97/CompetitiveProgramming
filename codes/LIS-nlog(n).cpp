@@ -26,8 +26,8 @@ int main()
 		else if (tmp[len - 1] < v[i])tmp[len++] = v[i];
 		else {
 			int l = -1, r = len - 1;
-			while (r < l) {
-				int m = l + (r + l) / 2;
+			while (r-l>1) {
+				int m =  (r + l) / 2;
 				if (v[m] >= v[i])r = m;
 				else l = r;
 			}

@@ -4,7 +4,6 @@
 #define PI 3.14159265;
 typedef long long ll;
 using namespace std;
-typedef long long ll;
 vector<ll>par;
 vector<bool>tk;
 bool ad[2001][2001] = { 0 };
